@@ -1,0 +1,12 @@
+{{ importEntity: }}class {{ className }}{{ extendEntity }} {
+  /**
+   * Apply mapping for entity `{{ className }}`
+   *
+   * @param {{Mapping}} {{mapping}}
+   */
+  setMapping(mapping) {
+    mapping.forProperty('id').increments().primary();{{ fields: }}
+  }
+}
+
+module.exports.{{ className }} = {{ className }};
