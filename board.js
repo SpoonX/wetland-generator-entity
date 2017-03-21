@@ -1,10 +1,10 @@
-const Generator   = require('../../../lib/Generator').Generator;
+const {Board}     = require('boards');
 const inquirer    = require('inquirer');
 const {Homefront} = require('homefront');
 const emoji       = require('node-emoji');
 const path        = require('path');
 
-class EntityGenerator extends Generator {
+class EntityBoard extends Board {
   static name () {
     return 'wetland-entity';
   }
@@ -136,4 +136,4 @@ class EntityGenerator extends Generator {
   }
 }
 
-module.exports = {Generator: EntityGenerator};
+module.exports = {Board: EntityBoard};
