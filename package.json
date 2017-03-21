@@ -1,6 +1,6 @@
 {
   "name": "board-wetland-entity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A boards generator for wetland entities.",
   "main": "board.js",
   "scripts": {
