@@ -81,7 +81,7 @@ class EntityBoard extends Board {
     return inquirer.prompt([
       {name: 'fieldName', message: 'What should field be named? (empty to cancel)'},
       {name: 'columnName', message: 'What should the column be named?', when: answers => !!answers.fieldName, default: answers => answers.fieldName},
-      {name: 'type', message: 'What is the type?', default: 'text', when: answers => !!answers.fieldName},
+      {name: 'type', message: 'What is the type?', default: 'string', when: answers => !!answers.fieldName},
       {name: 'addAnotherField', type: 'confirm', message: 'Do you want to add another field?', default: false, when: answers => !!answers.fieldName}
     ]);
   }
