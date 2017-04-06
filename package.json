@@ -4,7 +4,8 @@
   "description": "A wetland generator for wetland entities.",
   "main": "board.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postpublish": "git push upstream master && git push upstream --tags"
   },
   "repository": {
     "type": "git",
