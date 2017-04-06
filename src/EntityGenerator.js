@@ -26,6 +26,8 @@ class EntityGenerator extends Generator {
     parameters = this.enrichParameters(parameters);
 
     if (!parameters.interactive) {
+      parameters.language = parameters.language || 'js';
+
       return this.buildMappings(parameters);
     }
 
