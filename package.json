@@ -1,14 +1,14 @@
 {
-  "name": "board-wetland-entity",
-  "version": "1.0.6",
-  "description": "A boards generator for wetland entities.",
+  "name": "wetland-generator-entity",
+  "version": "1.0.0",
+  "description": "A wetland generator for wetland entities.",
   "main": "board.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SpoonX/board-wetland-entity.git"
+    "url": "git+ssh://git@github.com/SpoonX/wetland-generator-entity.git"
   },
   "keywords": [
     "boards",
@@ -19,13 +19,17 @@
   "author": "RWOverdijk <wesley@spoonx.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SpoonX/board-wetland-entity/issues"
+    "url": "https://github.com/SpoonX/wetland-generator-entity/issues"
   },
-  "homepage": "https://github.com/SpoonX/board-wetland-entity#readme",
+  "homepage": "https://github.com/SpoonX/wetland-generator-entity#readme",
   "dependencies": {
-    "boards": "^0.0.4",
+    "ezon": "^1.0.0",
+    "procurator": "^1.0.1",
     "homefront": "^1.3.3",
     "inquirer": "^3.0.6",
-    "node-emoji": "^1.5.1"
+    "node-emoji": "^1.5.1",
+    "request": "^2.81.0",
+    "wetland": "^1.5.0",
+    "boards": "^1.0.0"
   }
 }
