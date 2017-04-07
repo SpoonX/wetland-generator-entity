@@ -59,8 +59,8 @@ class EntityGenerator extends Generator {
           language    : answers.language,
           sourceFile  : `entity.${extension}.template`,
           targetFile  : `${name}.${extension}`,
-          extendEntity: answers.extendEntity && templateStrings.extendEntity || null,
-          importEntity: answers.extendEntity && templateStrings.importEntity[extension] || null,
+          extendEntity: answers.extendEntity && templateStrings.extendEntity || '',
+          importEntity: answers.extendEntity && templateStrings.importEntity[extension] || '',
           className   : name
         });
 
