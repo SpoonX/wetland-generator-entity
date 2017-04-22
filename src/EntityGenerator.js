@@ -18,7 +18,7 @@ class EntityGenerator extends Generator {
   static defaults() {
     return {
       sourceDirectory: path.join(__dirname, '../templates'),
-      targetDirectory: path.join(process.cwd(), 'app', 'entity')
+      targetDirectory: path.join(process.cwd(), 'api', 'entity')
     };
   }
 
