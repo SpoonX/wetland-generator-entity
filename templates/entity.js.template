@@ -2,7 +2,7 @@
   /**
    * Apply mapping for entity `{{ className }}`
    *
-   * @param {{Mapping}} {{mapping}}
+   * @param {{Mapping}} mapping
    */
   setMapping(mapping) {
     mapping.forProperty('id').increments().primary();{{ fields: }}
