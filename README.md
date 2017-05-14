@@ -7,7 +7,7 @@ Supports typescript and javascript.
 
 Install local to enable the generator in the project:
 
-`npm i -D board-wetland-entity`
+`npm i -D wetland-generator-entity`
 
 ## Usage
 
