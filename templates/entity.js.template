@@ -1,11 +1,11 @@
-{{ importEntity: }}class {{ className }}{{ extendEntity }} {
+{{ importEntity }}class {{ className }}{{ extendEntity }} {
   /**
    * Apply mapping for entity `{{ className }}`
    *
    * @param {{Mapping}} mapping
    */
   static setMapping(mapping) {
-    mapping.forProperty('id').increments().primary();{{ fields: }}
+    mapping.forProperty('id').increments().primary();{{ fields }}
   }
 }
 

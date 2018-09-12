@@ -1,5 +1,5 @@
-import {primary, increments{{ importField: }}} from 'wetland/decorators/Mapping';
+import {primary, increments{{ importField }}} from 'wetland/decorators/Mapping';
 {{ importEntity }}
 export class {{ className }}{{ extendEntity }} {
-  @primary() @increments() id;{{ fields: }}
+  @primary() @increments() id;{{ fields }}
 }
